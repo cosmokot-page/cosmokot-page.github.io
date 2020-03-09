@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Треугольник</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="triangel">Вычисление треугольника</h1>
+		<form name="myform">
+			<h2 class="h2">Введите значение сторон треугольника: </h2>
+			<div class="input">
+				<p>Длина стороны a: </p>
+				<input type="text" name="storona1" placeholder="Введите значение">
+			</div>
+			<div class="input">
+				<p>Длина стороны b: </p>
+				<input type="text" name="storona2" placeholder="Введите значение">
+			</div>
+			<div class="input">
+				<p>Длина стороны c: </p>
+				<input type="text" name="storona3" placeholder="Введите значение">
+			</div>
+			<input type="button" value="Вычислить" onclick="Ploshad()">
+			<input type="reset" value="Обновить">
+			<div class="result">
+				<p>Площадь треугольника: </p>
+				<input type="text" name="otvet">
+			</div>
+		</form>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
